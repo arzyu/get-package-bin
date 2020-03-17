@@ -1,0 +1,21 @@
+{
+  "name": "get-package-bin",
+  "version": "0.1.0",
+  "description": "Get bin object from package.json",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "ts-node": "8.6.2",
+    "typescript": "3.8.3"
+  },
+  "license": "MIT"
+}
